@@ -1923,8 +1923,8 @@ CREATE TABLE `nv_users` (
 --
 
 INSERT INTO `nv_users` (`userid`, `group_id`, `username`, `md5username`, `password`, `email`, `first_name`, `last_name`, `gender`, `photo`, `birthday`, `sig`, `regdate`, `question`, `answer`, `passlostkey`, `view_mail`, `remember`, `in_groups`, `active`, `active2step`, `secretkey`, `checknum`, `last_login`, `last_ip`, `last_agent`, `last_openid`, `last_update`, `idsite`, `safemode`, `safekey`, `email_verification_time`, `active_obj`) VALUES
-(1, 1, 'nvholding.vn', '143844ec1adb123ea6f14a5352290d56', '{SSHA512}UqPn8qI7vkDsZ7p57cpfZNp2fFqTWoSlKEK0AAUrsICL4wfOfgoaxqI2EHjnyEpNAmnDS4ra0k0thscZi4/UmGRjMWI=', 'hoangnt@nguyenvan.vn', 'nvholding.vn', '', '', '', 0, '', 1599032250, 'admin website?', 'nguyenvan.vn', '', 0, 1, '1', 1, 0, '', '', 1599032250, '', '', '', 0, 0, 0, '', -3, 'SYSTEM'),
-(2, 3, 'adminv2', '02d98143e414fb06bd3863f040edf278', '{SSHA512}9k6Dvo/xQ8V8wks+D5qBTszdYoqjt+++CE7CfaURpWJYbIBmiO1xfjOadZ6jUMRzmfgKr6A6M8NXP15PzJ0cvDU0NzU=', 'admin@abc.com', 'ád', '', 'M', '', 494614800, '', 1601466103, 'adss', 'ádsa', '', 0, 1, '4,3', 1, 0, '', '', 0, '', '', '', 0, 0, 0, '', -1, 'SYSTEM');
+(1, 1, 'root', '444444444444445555', '', '', 'ssss', '', '', '', 0, '', 1599032250, '', '', '', 0, 1, '1', 1, 0, '', '', 1599032250, '', '', '', 0, 0, 0, '', -3, 'SYSTEM'),
+(2, 3, 'admin', '02d98143e414fb06bd386s3f04dddf278', '', 'admin@abc.com', 'ád', '', 'M', '', 494614800, '', 1601466103, 'adss', 'ádsa', '', 0, 1, '4,3', 1, 0, '', '', 0, '', '', '', 0, 0, 0, '', -1, 'SYSTEM');
 
 -- --------------------------------------------------------
 
